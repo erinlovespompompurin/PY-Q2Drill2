@@ -11,6 +11,7 @@ def add_member(e):
 
     input_member = document.getElementById('input1').value
     input_member2 = document.getElementById('input2').value
+    
     new_member = {input_member + " " + input_member2}
 
     all_member = members | new_member
